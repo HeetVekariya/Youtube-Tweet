@@ -1,0 +1,12 @@
+[project]
+name = "youtube-tweet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bs4>=0.0.2",
+    "openai-agents[litellm]>=0.1.0",
+    "tweepy>=4.16.0",
+    "youtube-transcript-api>=1.1.1",
+]
